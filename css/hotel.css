@@ -11,5 +11,46 @@ body{
     padding: 0 !important;
 }
 
+footer .card {
+    background-color: rgb(87, 50, 50) !important;
+    border-radius: 0%;
+}
 
+footer .card-body {
+    height: 250px !important;
+    text-align: center;
+    color:burlywood;
+    font-size: 15px;
+    /*padding: 0 530px; para quebrar o endereço em parte estrategica */
+}
 
+footer .card-body a{
+    color:burlywood;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+footer .card-header {
+    background-color: rgb(77, 40, 40) !important;
+    text-align: center;
+}
+
+footer .card-header a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+footer .card-header a:hover{
+    color:burlywood;
+}
+
+main .row{
+    padding: 0 35px !important;
+ }
+
+ main h2{
+    text-align: center;
+    margin: 20px;
+ }
